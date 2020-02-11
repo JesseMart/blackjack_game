@@ -1,0 +1,117 @@
+#output{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+#btndeal, #myActions{
+    display:none;
+}
+.btn{
+    border-radius: 5px;
+    padding: 8px 20px;
+    display: inline-block;
+    text-shadow: 1px 1px #000000;
+    font: normal 700 24px/1 "Ariel", sans-serif;
+}
+.clubs, .spades{
+    color:black;
+}
+.hearts, .diams{
+    color: red;
+}
+.cardSize{
+    height: 300px;
+    width: 220px;
+    padding: 4px;
+    border: 1px solid black;
+    
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    display: inline-block;
+    
+}
+.top-card{
+    font-size: 35px;
+    line-height: 30px;
+    left: 2px;
+    
+}
+.content{
+    text-align: center;
+    font-size: 100px;
+}
+.bottom{
+    font-size: 40px;
+    line-height: 35px;
+    right: 2px;
+    transform: rotate(-180deg);
+}
+.hearts .suit::after{
+    content: '\2665';
+}
+.diams .suit::after{
+    content: '\2666';
+}
+.spades .suit::after{
+    content: '\2660';
+}
+.clubs .suit::after{
+    content: '\2663';
+}
+#dealerCards, #playerCards{
+    height: 300px;
+    width: 100px;
+    position: relative;
+    left: 450px;
+}
+
+#coverDealerCard{
+    height: 300px;
+    width: 220px;
+    background-image: url(https://img.nbc.com/sites/nbcunbc/files/metaverse_assets/1/0/2/7/1/0/ron-500x500.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position: center;
+    background-position: right;
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid black;
+    
+}
+.totalMoney{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#start{
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image: url(https://cdn.hipwallpaper.com/i/46/65/hEiUkp.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+}
+#message{
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+#betTab{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+    color: white;
+}
+.header{
+    color: white;
+}
+
+

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>BlackJack Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="header" style="text-align: center;">
+        <h1>Welcome to BlackJack</h1>
+    </div>
+        <div id ="start">
+                <button type="button" onclick="start()" class="btn btn-primary">Start Game</button>
+        </div>
+        </div>
+        <div>
+            <button id ="btndeal" type="button" onclick="dealNewHand()" class="btn btn-primary">Deal</button>
+        </div>
+        <div class="totalMoney"> Total Wallet $<span id="dollars">100</span></div>
+        <div id="betTab">Bet Amount $<input type="number" id = "mybet" value = "5" min = "1" max = "100"><button id = "maxbet" type="button" onclick="maxbet()"class="btn btn-primary">MAX BET</button></div>
+        <div id="message"></div>
+    
+        <div id="output">
+            Dealer: <span id = "dValue"></span><div id="dealerCards"></div>
+            Your Hand:<span id = "pValue"></span><div id="playerCards"></div>
+            <div id="myActions" style="text-align: center;">
+                <button id = "btnHold" type="button" onclick="cardAction('hold')" class="btn btn-primary"> Hold </button>
+                <button id = "btnHit" type="button" onclick="cardAction('hit')" class="btn btn-primary"> Hit </button>
+                <button id = "btnDouble" type="button" onclick="cardAction('double')" class="btn btn-primary"> Double </button>
+            </div>
+            <div>
+                <button id ="btndeal" type="button" onclick="dealNewHand()" class="btn btn-primary">Deal</button>
+            </div>
+        </div>
+    <script src="blackjack.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
