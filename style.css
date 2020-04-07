@@ -92,10 +92,12 @@
     justify-content: center;
 }
 body {
-    background-image: url(https://cdn.hipwallpaper.com/i/46/65/hEiUkp.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left;
+    background: no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+    
+    
 }
 #message{
     text-align:center;

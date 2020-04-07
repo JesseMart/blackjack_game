@@ -1,6 +1,9 @@
 # BlackJack Game Application
-**Languages used:** JavaSccript, CSS 3 and HTML 5
+**Languages used:** JavaScript, CSS 3 and HTML 5
 
-# How the Code Works
+![BlackJack](images/blackjack_game.png)
+
+
+
 
 
